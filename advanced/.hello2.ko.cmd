@@ -1,0 +1,1 @@
+cmd_/home/danoon/Downloads/examples/advanced/hello2.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o /home/danoon/Downloads/examples/advanced/hello2.ko /home/danoon/Downloads/examples/advanced/hello2.o /home/danoon/Downloads/examples/advanced/hello2.mod.o;  true
